@@ -1,0 +1,273 @@
+*{box-sizing:border-box}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800&display=swap&subset=cyrillic,cyrillic-ext');
+body{margin:0;width:100%;font-family: 'Montserrat', sans-serif;font-size:16px;font-weight: 500;line-height:inherit;color:#191919;}
+.wrap{width:375px;margin:0 auto;}
+.clr{clear:both}
+a.btn{border-radius: 4px;background-color: #005bff;text-decoration: none;padding: 13px 32px;color: #fff;font-size: 15px;font-weight: 600;}
+.blue{color: #0460e2}
+
+.hdr{
+	background: #191919;
+	padding: 22px 30px 36px;
+	overflow: hidden;
+	color: #fff;
+	.logo{width: 206px;}
+	.tpt{
+		padding-top: 10px;
+		font-size: 9px;
+		opacity: .3;
+		text-transform: uppercase;
+	}
+	.sttl{
+		padding-top: 72px;
+		font-size: 20px;
+	}
+	.ttl{
+		font-size: 50px;
+		font-weight: 600;
+		line-height: 1.1;
+	}
+	.n1{
+		margin-top: 42px;
+		.layer{
+			display: block;
+			float: left;
+			margin-top: 4px;
+			margin-right: 13px;
+			width: 37px;
+			height: 29px;
+			object-fit: contain;
+		}
+		p{font-size: 14px;margin: 0;}
+		span{font-size: 10px;opacity: .3;}
+	}
+	form{
+		margin-top: 58px;
+	}
+}
+form{
+	position: relative;
+	input[type="text"]{
+		position: relative;
+		width: 100%;
+		height: 66px;
+		border: 0;
+		border-radius: 4px;
+		background-color: #ffffff;
+		padding: 0 0 0 50px;
+	}
+	input[type="text"]::placeholder{
+		font-size: 14px;
+		color: #181c22;
+		opacity: .5;
+	}
+	.inp{position: relative;}
+	.inp:before{
+		position: absolute;
+		width: 22px;height: 22px;
+		top: 20px;
+		left: 15px;
+		display: block;
+		content: '@';
+		z-index: 1;
+		font-size: 20px;
+		font-weight: 500;
+		color: #8420ff;
+		font-family: 'Montserrat', sans-serif;
+	}
+	button{
+		width: 100%;
+		height: 66px;
+		border: 0;
+		border-radius: 4px;
+		background-color: #286ceb;
+		margin-top: 15px;
+		font-size: 14px;
+		color: #fff;
+		font-weight: 600;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+	}
+}
+
+.b1{
+	overflow: hidden;
+	padding: 50px 30px;
+	.ttl{
+		font-size: 30px;
+		font-weight: 600;
+	}
+	.hr{
+		width: 44px;
+		height: 2px;
+		background: #8420ff;
+		margin-top: 37px;
+	}
+	p{margin: 7px 0;font-size: 20px;}
+	span{font-size: 15px;}
+	.iho{
+		margin-top: 37px;
+		font-size: 14px;
+		color: #8420ff;
+	}
+	.nach{
+		padding-top: 7px;
+		font-size: 20px;
+		font-weight: 800;
+	}
+	form{margin-top: 30px;}
+	form input[type="text"]{border: solid 1px #d9d9d9;}
+}
+.b2{
+	overflow: hidden;
+	padding: 50px 30px;
+	background: #191919;
+	color: #fff;
+	.ttl{
+		font-size: 20px;
+		font-weight: 800;
+		color: #a55bff;
+		span.wh{font-size: 15px;font-weight: 500;color: #fff;}
+	}
+	.pdf{width: 319px;margin-top: 15px;}
+	ul{
+		margin: 15px 0 30px;padding: 0;
+		list-style: none;
+		li{
+			position: relative;
+			padding: 0 0 10px 15px;
+			font-size: 13px;
+			color: #fff;
+			line-height: 1.54;
+		}
+		li:last-child{padding-bottom: 0;}
+		li:after{
+			position: absolute;
+			top: -18px;left: 0;
+			content: '•';
+			font-size: 35px;
+			color: #a55bff;
+		}
+	}
+	form input[type="text"]{border: solid 1px #d9d9d9;}
+}
+.avtor{
+	overflow: hidden;
+	padding: 50px 30px;
+	.ttl{
+		font-size: 30px;
+		font-weight: 600;
+		line-height: 1.73;
+	}
+	.name{
+		padding-bottom: 25px;
+		font-size: 20px;
+		font-weight: 800;
+		color: #131415;
+	}
+	.ob{
+		position: relative;
+		img{width: 155px;position: relative;left: -30px;}
+		.txt{
+			float: right;
+			width: 160px;
+			font-size: 13px;
+			color: #131415;
+			p{font-size: 30px;margin: 0;padding: 0;}
+			p span{font-size: 15px;}
+			.small{padding-bottom: 24px;}
+		}
+	}
+	.n1{
+		margin-top: 35px;
+		.layer{
+			display: block;
+			float: left;
+			margin-top: 4px;
+			margin-right: 13px;
+			width: 37px;
+			height: 29px;
+			object-fit: contain;
+		}
+		p{font-size: 14px;margin: 0;}
+		span{font-size: 10px;opacity: .3;}
+	}
+	.uch{font-size: 14px;margin: 30px 0 17px;}
+	.imgs1{
+		width: 100%;height: 86px;
+		position: relative;
+		img{position: absolute;display: block;object-fit: contain;}
+		.britanka_logo_black_ru{width: 96px;top: 2px;left: 0;}
+		.mads{width: 43px;height: 43px;top: 0;left: 125px;}
+		.logo_uu_white_transparent{width: 118px;top: 0;right: 0;}
+		.invalid-name{width: 104px;left: 0;bottom: 3px;}
+		.Bitmap{width: 87px;top: 60px;left: 133px;}
+		.vordshop{width: 66px;right: 0;bottom: 0;}
+	}
+	.imgs2{
+		width: 100%;height: 90px;
+		position: relative;
+		img{position: absolute;display: block;object-fit: contain;}
+		.layer{width: 69px;height: 27px;top: 0;left: 0;}
+		.alfabank_secondary-logo_red_ru{width: 117px;top: 0;left: 101px;}
+		.visa{width: 66px;top: 0;right: 0;}
+		.px-Coca-Cola_logosvg{width: 107px;left: 0;bottom: 8px;}
+		.lipton{width: 54px;bottom: 0;left: 136px;}
+		.md-logo{width: 95px;height: 27px;bottom: 13px;right: 0;}
+	}
+}
+.programs{
+	overflow: hidden;
+	padding: 50px 30px;
+	.ttl{
+		font-size: 30px;
+		font-weight: 600;
+	}
+	.day{margin-top: 30px;font-size: 14px;color: #8420ff;}
+	.name{
+		padding: 7px 0 20px;
+		font-size: 20px;
+		font-weight: 800;
+	}
+	img{position: relative;left: -10px;}
+	p{margin: 0;padding: 4px 0;}
+}
+.result{
+	overflow: hidden;
+	padding: 50px 30px;
+	background: #191919;
+	color: #fff;
+	.ttl{margin-bottom: 10px;font-size: 20px;font-weight: 800;}
+	.nac{
+		font-size: 15px;
+		color: #a55bff;
+	}
+	.stl{padding: 5px 0 10px;font-size: 15px;}
+	img.Car-romania{width: 315px;margin: 20px 0 30px;position: relative;left: -10px;}
+	.cost{font-size: 30px;}
+	form{margin-top: 35px;}
+}
+.ftr{
+	overflow: hidden;
+	padding: 50px 30px 40px;
+	background: #191919;
+	color: #fff;
+	font-size: 10px;
+	font-weight: 300;
+	.copy{font-size: 13px;opacity: .4;margin-bottom: 10px;}
+	.txt{opacity: .2;line-height: 2;}
+	a{color: #fff;}
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+
+@media screen and (max-width: 1040px) {
+.box{width: 90%;}
+
+}
+
+@media screen and (max-width: 788px) {
+
+}

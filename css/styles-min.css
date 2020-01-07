@@ -1,0 +1,364 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800&display=swap&subset=cyrillic,cyrillic-ext");
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: inherit;
+  color: #191919; }
+
+.wrap {
+  width: 375px;
+  margin: 0 auto; }
+
+.clr {
+  clear: both; }
+
+a.btn {
+  border-radius: 4px;
+  background-color: #005bff;
+  text-decoration: none;
+  padding: 13px 32px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600; }
+
+.blue {
+  color: #0460e2; }
+
+.hdr {
+  background: #191919;
+  padding: 22px 30px 36px;
+  overflow: hidden;
+  color: #fff; }
+  .hdr .logo {
+    width: 206px; }
+  .hdr .tpt {
+    padding-top: 10px;
+    font-size: 9px;
+    opacity: .3;
+    text-transform: uppercase; }
+  .hdr .sttl {
+    padding-top: 72px;
+    font-size: 20px; }
+  .hdr .ttl {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.1; }
+  .hdr .n1 {
+    margin-top: 42px; }
+    .hdr .n1 .layer {
+      display: block;
+      float: left;
+      margin-top: 4px;
+      margin-right: 13px;
+      width: 37px;
+      height: 29px;
+      object-fit: contain; }
+    .hdr .n1 p {
+      font-size: 14px;
+      margin: 0; }
+    .hdr .n1 span {
+      font-size: 10px;
+      opacity: .3; }
+  .hdr form {
+    margin-top: 58px; }
+
+form {
+  position: relative; }
+  form input[type="text"] {
+    position: relative;
+    width: 100%;
+    height: 66px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 0 0 0 50px; }
+  form input[type="text"]::placeholder {
+    font-size: 14px;
+    color: #181c22;
+    opacity: .5; }
+  form .inp {
+    position: relative; }
+  form .inp:before {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    top: 20px;
+    left: 15px;
+    display: block;
+    content: '@';
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 500;
+    color: #8420ff;
+    font-family: 'Montserrat', sans-serif; }
+  form button {
+    width: 100%;
+    height: 66px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #286ceb;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase; }
+
+.b1 {
+  overflow: hidden;
+  padding: 50px 30px; }
+  .b1 .ttl {
+    font-size: 30px;
+    font-weight: 600; }
+  .b1 .hr {
+    width: 44px;
+    height: 2px;
+    background: #8420ff;
+    margin-top: 37px; }
+  .b1 p {
+    margin: 7px 0;
+    font-size: 20px; }
+  .b1 span {
+    font-size: 15px; }
+  .b1 .iho {
+    margin-top: 37px;
+    font-size: 14px;
+    color: #8420ff; }
+  .b1 .nach {
+    padding-top: 7px;
+    font-size: 20px;
+    font-weight: 800; }
+  .b1 form {
+    margin-top: 30px; }
+  .b1 form input[type="text"] {
+    border: solid 1px #d9d9d9; }
+
+.b2 {
+  overflow: hidden;
+  padding: 50px 30px;
+  background: #191919;
+  color: #fff; }
+  .b2 .ttl {
+    font-size: 20px;
+    font-weight: 800;
+    color: #a55bff; }
+    .b2 .ttl span.wh {
+      font-size: 15px;
+      font-weight: 500;
+      color: #fff; }
+  .b2 .pdf {
+    width: 319px;
+    margin-top: 15px; }
+  .b2 ul {
+    margin: 15px 0 30px;
+    padding: 0;
+    list-style: none; }
+    .b2 ul li {
+      position: relative;
+      padding: 0 0 10px 15px;
+      font-size: 13px;
+      color: #fff;
+      line-height: 1.54; }
+    .b2 ul li:last-child {
+      padding-bottom: 0; }
+    .b2 ul li:after {
+      position: absolute;
+      top: -18px;
+      left: 0;
+      content: '•';
+      font-size: 35px;
+      color: #a55bff; }
+  .b2 form input[type="text"] {
+    border: solid 1px #d9d9d9; }
+
+.avtor {
+  overflow: hidden;
+  padding: 50px 30px; }
+  .avtor .ttl {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.73; }
+  .avtor .name {
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #131415; }
+  .avtor .ob {
+    position: relative; }
+    .avtor .ob img {
+      width: 155px;
+      position: relative;
+      left: -30px; }
+    .avtor .ob .txt {
+      float: right;
+      width: 160px;
+      font-size: 13px;
+      color: #131415; }
+      .avtor .ob .txt p {
+        font-size: 30px;
+        margin: 0;
+        padding: 0; }
+      .avtor .ob .txt p span {
+        font-size: 15px; }
+      .avtor .ob .txt .small {
+        padding-bottom: 24px; }
+  .avtor .n1 {
+    margin-top: 35px; }
+    .avtor .n1 .layer {
+      display: block;
+      float: left;
+      margin-top: 4px;
+      margin-right: 13px;
+      width: 37px;
+      height: 29px;
+      object-fit: contain; }
+    .avtor .n1 p {
+      font-size: 14px;
+      margin: 0; }
+    .avtor .n1 span {
+      font-size: 10px;
+      opacity: .3; }
+  .avtor .uch {
+    font-size: 14px;
+    margin: 30px 0 17px; }
+  .avtor .imgs1 {
+    width: 100%;
+    height: 86px;
+    position: relative; }
+    .avtor .imgs1 img {
+      position: absolute;
+      display: block;
+      object-fit: contain; }
+    .avtor .imgs1 .britanka_logo_black_ru {
+      width: 96px;
+      top: 2px;
+      left: 0; }
+    .avtor .imgs1 .mads {
+      width: 43px;
+      height: 43px;
+      top: 0;
+      left: 125px; }
+    .avtor .imgs1 .logo_uu_white_transparent {
+      width: 118px;
+      top: 0;
+      right: 0; }
+    .avtor .imgs1 .invalid-name {
+      width: 104px;
+      left: 0;
+      bottom: 3px; }
+    .avtor .imgs1 .Bitmap {
+      width: 87px;
+      top: 60px;
+      left: 133px; }
+    .avtor .imgs1 .vordshop {
+      width: 66px;
+      right: 0;
+      bottom: 0; }
+  .avtor .imgs2 {
+    width: 100%;
+    height: 90px;
+    position: relative; }
+    .avtor .imgs2 img {
+      position: absolute;
+      display: block;
+      object-fit: contain; }
+    .avtor .imgs2 .layer {
+      width: 69px;
+      height: 27px;
+      top: 0;
+      left: 0; }
+    .avtor .imgs2 .alfabank_secondary-logo_red_ru {
+      width: 117px;
+      top: 0;
+      left: 101px; }
+    .avtor .imgs2 .visa {
+      width: 66px;
+      top: 0;
+      right: 0; }
+    .avtor .imgs2 .px-Coca-Cola_logosvg {
+      width: 107px;
+      left: 0;
+      bottom: 8px; }
+    .avtor .imgs2 .lipton {
+      width: 54px;
+      bottom: 0;
+      left: 136px; }
+    .avtor .imgs2 .md-logo {
+      width: 95px;
+      height: 27px;
+      bottom: 13px;
+      right: 0; }
+
+.programs {
+  overflow: hidden;
+  padding: 50px 30px; }
+  .programs .ttl {
+    font-size: 30px;
+    font-weight: 600; }
+  .programs .day {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #8420ff; }
+  .programs .name {
+    padding: 7px 0 20px;
+    font-size: 20px;
+    font-weight: 800; }
+  .programs img {
+    position: relative;
+    left: -10px; }
+  .programs p {
+    margin: 0;
+    padding: 4px 0; }
+
+.result {
+  overflow: hidden;
+  padding: 50px 30px;
+  background: #191919;
+  color: #fff; }
+  .result .ttl {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 800; }
+  .result .nac {
+    font-size: 15px;
+    color: #a55bff; }
+  .result .stl {
+    padding: 5px 0 10px;
+    font-size: 15px; }
+  .result img.Car-romania {
+    width: 315px;
+    margin: 20px 0 30px;
+    position: relative;
+    left: -10px; }
+  .result .cost {
+    font-size: 30px; }
+  .result form {
+    margin-top: 35px; }
+
+.ftr {
+  overflow: hidden;
+  padding: 50px 30px 40px;
+  background: #191919;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 300; }
+  .ftr .copy {
+    font-size: 13px;
+    opacity: .4;
+    margin-bottom: 10px; }
+  .ftr .txt {
+    opacity: .2;
+    line-height: 2; }
+  .ftr a {
+    color: #fff; }
+
+@media screen and (max-width: 1040px) {
+  .box {
+    width: 90%; } }
